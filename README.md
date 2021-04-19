@@ -1,6 +1,10 @@
 # PTT-app
 
-This is an app that simply wrap up the backend and frontend codes I wrote before ([PTT-web-backend](https://github.com/openopentw/PTT-web-backend) and [PTT-web-frontend](https://github.com/openopentw/PTT-web-frontend)) using electron and pyinstaller. Thus, the binary file maybe a little large (around 200MB). But the overall UI is great.
+可以用來連上 PTT 的電腦版 app。
+
+This is an app that simply wrap up the backend and frontend codes I wrote before using electron and pyinstaller ([PTT-web-backend](https://github.com/openopentw/PTT-web-backend) and [PTT-web-frontend](https://github.com/openopentw/PTT-web-frontend)). Thus, the binary file maybe a little large (around 200MB). But the overall UI is great.
+
+And since the app run the backend itself, it will not send your password to any server other than PTT.
 
 ## Releases
 
