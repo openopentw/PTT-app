@@ -4,7 +4,7 @@ This is an app that simply wrap up the backend and frontend codes I wrote before
 
 ## Releases
 
-TBA
+[Link](https://github.com/openopentw/PTT-app/releases)
 
 ## Manually Compile & Installation
 
