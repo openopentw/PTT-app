@@ -1,0 +1,21 @@
+{
+  "name": "ptt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-python": "pyinstaller ./PTT-web-backend/main.py --add-data ./PTT-web-backend/build;build --clean",
+    "pack-app": "./node_modules/.bin/electron-packager . --overwrite --ignore=py$",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YJC (openopentw)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.4",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "get-port": "^5.1.1"
+  }
+}
